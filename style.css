@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: yellow;
+}
+
+.name, .position {
+    background-color: red;
+    color: white;
+}
+
+.salary {
+    background-color: green;
+    color: white;
+}
